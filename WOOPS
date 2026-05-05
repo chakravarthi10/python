@@ -1,0 +1,32 @@
+class ace:
+     col="ACE COLLEGE"
+     def set_dim(self,a,b,c,d,e):
+          self.tot =a+b+c+d
+          self.name =e
+     def display(self):
+          print("1 NAME: ",self.name)
+          print("2 MARKS: ",self.tot)
+          print("3 COLLEGE: ",ace.col)
+     
+class vbit:
+     col="VBIT COLLEGE"
+     def set_dim(self,a,b,c,d):
+          self.tot=a+b+c
+          self.name=d
+     def display(self):
+          print("1 NAME: ",self.name)
+          print("2 MARKS: ",self.tot)
+          print("3 COLLEGE: ",vbit.col)
+
+a=ace()
+a1=ace()
+b=vbit()
+b1=vbit()
+a.set_dim(20,80,30,50,"CHANTI")
+a1.set_dim(20,90,10,70,"FAYAZ")
+b.set_dim(30,50,60,"VARUN")
+b1.set_dim(90,50,30,"SUMATHI")
+a.display()
+b.display()
+a1.display()
+b1.display()
